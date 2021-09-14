@@ -12,7 +12,7 @@ api.add_middleware(
 models = {
     "Quotes": Generator("Quotes"),
     "Shakespeare": Generator("Shakespeare"),
-    "Whatsapp": Generator("Whatsapp"),
+    # "Whatsapp": Generator("Whatsapp"),
     "News": Generator("News"),
 }
 
