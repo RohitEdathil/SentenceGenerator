@@ -1,6 +1,6 @@
 # Sentence Generator
 
-This project generates sentences based on a Markov chain.
+This project generates sentences based on [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain).
 
 # Available Models
 
@@ -28,4 +28,4 @@ train("<filename>","< Model Name >"[,<Number of Sentences>])
 
 # API
 
-api.py is a REST like interaction with the program.
+api.py provides an API interaction with the models.
