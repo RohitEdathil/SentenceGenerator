@@ -1,4 +1,4 @@
-const HOST = "http://127.0.0.1:8000/";
+const HOST = "https://sentence-generator-markov.herokuapp.com/";
 var model;
 function $(id) {
   return document.getElementById(id);
