@@ -10,7 +10,7 @@ body {
 }
 h1 {
   margin: 10px auto;
-  font-size: 42px;
+  font-size: 35px;
 }
 
 q {
@@ -61,4 +61,10 @@ button {
 
 em {
   color: #088f88;
+}
+
+a {
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
