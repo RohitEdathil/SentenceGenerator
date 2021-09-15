@@ -31,4 +31,9 @@ train("<filename>","< Model Name >"[,<Number of Sentences>])
 
 # API
 
-api.py provides an API interaction with the models.
+api.py is a FastAPI based app which provides an API interaction with the models.
+
+# Similar (and cooler) Projects
+These are the projects from which I got inspired from.
+ - [Subreddit Simulator](https://www.reddit.com/r/SubredditSimulator/)
+ - [Donald Trump tweet simulator](https://filiph.github.io/markov/)
