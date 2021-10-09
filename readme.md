@@ -14,7 +14,7 @@ All the sentences are generated based on a particular theme as mentioned in the 
 
 # Usage 🛠
 
-```
+```python
 model = Generator("<Model Name>") # Loads the model from models/
 print(model.get()) # Generates a sentence and prints it
 ```
@@ -25,7 +25,7 @@ See workspace.ipynb for more usage details.
 
 Each file should have sentences separated by newlines.
 
-```
+```python
 train("<filename>","< Model Name >"[,<Number of Sentences>])
 ```
 
