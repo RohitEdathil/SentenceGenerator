@@ -1,4 +1,4 @@
-const HOST = "https://sentence-generator-markov.herokuapp.com/";
+const HOST = "http://SentenceGenerator.rohitv.repl.co/";
 var model;
 function $(id) {
   return document.getElementById(id);
