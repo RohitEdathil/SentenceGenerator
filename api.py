@@ -1,6 +1,7 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 
 from generator import Generator
 
@@ -19,7 +20,7 @@ models = {
 
 @api.get("/")
 async def root():
-    return "For more info, go to /docs"
+    return RedirectResponse('https://sentencesimulator.web.app/')
 
 
 @api.get("/get/{model}")
