@@ -1,4 +1,4 @@
-const HOST = "http://SentenceGenerator.rohitv.repl.co/";
+const HOST = "https://SentenceGenerator.rohitv.repl.co/";
 var model;
 function $(id) {
   return document.getElementById(id);
